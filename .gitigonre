@@ -1,4 +1,8 @@
 gems
+puppet/.bundle/
+puppet/Gemfile
+puppet/Gemfile.lock
+puppet/gems
 .bundle
 *.swp
 modules/.DS_Store
@@ -7,8 +11,8 @@ modules/.DS_Store
 vendor/*
 .librarian/
 .tmp/
-Puppetfile.lock
-Gemfile.lock
+\*Puppetfile.lock\*
+\*Gemfile.lock\*
 vagrant-centos-7.1.box
 Gemfile.lock
 hiera/keys/
