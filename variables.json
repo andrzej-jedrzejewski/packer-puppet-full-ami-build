@@ -1,0 +1,15 @@
+{
+    "os":"Ubuntu_64",
+    "os_type":"Debian_64",
+    "iso_url": "http://releases.ubuntu.com/14.04/ubuntu-14.04.3-server-amd64.iso",
+    "iso_checksum": "a3b345908a826e262f4ea1afeb357fd09ec0558cf34e6c9112cead4bb55ccdfb",
+    "iso_checksum_type": "sha256",
+    "profile": "cloud",
+    "name": "xfs",
+    "disk_size": "8192",
+    "ssh_username": "vagrant",
+    "ssh_password": "vagrant",
+    "output_directory": "/tmp/packer_output_ubuntu/",
+    "run_virtualbox_in_background": "false",
+    "S3_bucket_name": "andrzejjbucket"
+  }
