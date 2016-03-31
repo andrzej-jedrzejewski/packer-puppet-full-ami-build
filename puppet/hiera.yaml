@@ -1,8 +1,12 @@
 ---
-:hierarchy:
-        - "%{::environment}"
-        - common
 :backends:
-        - yaml
+ - 'yaml'
 :yaml:
-     :datadir: "/tmp/hiera"
+  :datadir: '/home/ec2-user/puppet-code/hiera'
+:hierarchy:
+ - local
+ - "roles/%{::role}"
+ - 'local'
+ - "%{::clientcert}"
+ - "%{::environment}"
+ - common
