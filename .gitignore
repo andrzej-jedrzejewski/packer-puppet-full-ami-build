@@ -1,6 +1,5 @@
 gems
 puppet/.bundle/
-puppet/Gemfile
 puppet/Gemfile.lock
 puppet/gems
 .bundle
