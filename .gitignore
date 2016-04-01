@@ -28,3 +28,16 @@ ubuntu/packer_cache/*
 *.box
 *.pem
 packer_cache/*
+
+puppet/modules/nginx/ngifiles/server_test.crt
+puppet/modules/nginx//files/server_test.pem
+puppet/modules/nginx/pkg/
+puppet/modules/nginx/log/
+puppet/modules/nginx/Gemfile.lock
+puppet/modules/nginx/spec/fixtures/modules
+puppet/modules/nginx/spec/fixtures/manifests
+puppet/modules/nginx/vendor
+puppet/modules/nginx/.ruby-version
+puppet/modules/nginx/.vagrant/
+puppet/modules/nginx/.gitattributes
+puppet/modules/nginx/.gitignore
